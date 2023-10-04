@@ -76,4 +76,37 @@
 	background-color: #999;
 }
 
+/* Transform */
 
+.transform .box{
+	transition: transform 0.5s;
+}
+
+.transform .b1{
+	transform: rotate(30deg);
+	transform-origin: 200px 200px;
+}	
+
+.transform .b1:hover{
+	transform: rotate(0deg);
+}	
+
+.transform .b2:hover{
+	transform: translate(20px, 20px);
+}	
+
+.transform .b3{
+	transform-origin: top left;
+}
+
+.transform .b3:hover{
+	transform: scale(1.5);
+}	
+
+.transform .b4{
+	transform: skewX(10deg) translateX(20px);
+}
+
+.transform .b4:hover{
+	transform: skewX(0deg);
+}
